@@ -18,16 +18,16 @@ modules:
 
   - type: rpm-ostree
     repos:
-      # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
-      # - https://copr.fedorainfracloud.org/coprs/ryanabx/cosmic-epoch/repo/fedora-$(rpm -E %fedora)/ryanabx-cosmic-epoch-fedora-$(rpm -E %fedora).repo
-      # - https://repository.mullvad.net/rpm/beta/mullvad.repo
+       - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
+       - https://copr.fedorainfracloud.org/coprs/ryanabx/cosmic-epoch/repo/fedora-$(rpm -E %fedora)/ryanabx-cosmic-epoch-fedora-$(rpm -E %fedora).repo
+       - https://repository.mullvad.net/rpm/beta/mullvad.repo
     install:
-      # - micro
-      # - bat
-      # - starship
-      # - cosmic-desktop
-      # - mullvad-vpn
-      # - gnome-shell-extension-pop-shell
+       - micro
+       - bat
+       - starship
+       - cosmic-desktop
+       - mullvad-vpn
+       - gnome-shell-extension-pop-shell
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
@@ -42,25 +42,25 @@ modules:
       # repo-name: flathub
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
-        # - org.mozilla.firefox
-        # - org.gnome.Loupe
-        # - com.belmoussaoui.Obfuscate
-        # - com.discordapp.Discord
-        # - com.github.ADBeveridge.Raider
-        # - com.github.johnfactotum.Foliate
-        # - com.spotify.Client
-        # - com.yubico.yubioath
-        # - dev.geopjr.Collision
-        # - fr.romainvigier.MetadataCleaner
-        # - net.mullvad.MullvadBrowser
-        # - org.gnome.Polari
-        # - org.gnome.Snapshot
-        # - org.signal.Signal
-        # - io.gitlab.adhami3310.Converter
-        # - im.riot.Riot
-        # - com.mattermost.Desktop
-        # - de.haeckerfelix.Fragments
-        # - org.raspberrypi.rpi-imager
+         - org.mozilla.firefox
+         - org.gnome.Loupe
+         - com.belmoussaoui.Obfuscate
+         - com.discordapp.Discord
+         - com.github.ADBeveridge.Raider
+         - com.github.johnfactotum.Foliate
+         - com.spotify.Client
+         - com.yubico.yubioath
+         - dev.geopjr.Collision
+         - fr.romainvigier.MetadataCleaner
+         - net.mullvad.MullvadBrowser
+         - org.gnome.Polari
+         - org.gnome.Snapshot
+         - org.signal.Signal
+         - io.gitlab.adhami3310.Converter
+         - im.riot.Riot
+         - com.mattermost.Desktop
+         - de.haeckerfelix.Fragments
+         - org.raspberrypi.rpi-imager
       remove:
       # - org.gnome.eog
 
