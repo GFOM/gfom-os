@@ -28,8 +28,6 @@ modules:
        - cosmic-desktop
        - mullvad-vpn
        - gnome-shell-extension-pop-shell
-       - rust
-       - cargo
        - rustup
     remove:
       # example: removing firefox (in favor of the flatpak)
